@@ -1,17 +1,7 @@
 package de.belohnung.aoc.day1;
 
 import org.beryx.streamplify.combination.Combinations;
-import org.beryx.streamplify.derangement.Derangements;
-import org.beryx.streamplify.permutation.Permutations;
-import org.beryx.streamplify.powerset.PowerSet;
-import org.beryx.streamplify.product.CartesianProduct;
-
-import java.security.Permission;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
