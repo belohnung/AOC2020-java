@@ -14,7 +14,6 @@ public class Main {
                 while (scanner.hasNextLine()) {
                     String current = scanner.nextLine();
                     if (checkLinePart1(current)) {
-                        System.out.println(current);
                         validP1++;
                     }
                     if (checkLinePart2(current)) {
@@ -35,7 +34,6 @@ public class Main {
         int maxOccurrences = Integer.parseInt(requirements.split("-")[1].split(" ")[0]);
         char letter = requirements.split("-")[1].split(" ")[1].charAt(0);
         String pw = line.split(": ")[1];
-        System.out.println("Letter: " + letter + " min:" + minOccurrences + " max:" + maxOccurrences + " pw: " + pw);
         long occurrences = pw.chars().filter(character -> character == letter).count();
         return occurrences >= minOccurrences && occurrences <= maxOccurrences;
     }
