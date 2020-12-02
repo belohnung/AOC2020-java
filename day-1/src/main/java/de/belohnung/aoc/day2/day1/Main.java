@@ -1,4 +1,4 @@
-package de.belohnung.aoc.day1;
+package de.belohnung.aoc.day2.day1;
 
 import org.beryx.streamplify.combination.Combinations;
 import java.util.Arrays;
